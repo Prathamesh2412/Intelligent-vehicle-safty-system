@@ -1,10 +1,9 @@
-Advanced Sensor-Based Autonomous Vehicle Safty System
 
-
-OVERVIEW
+Advanced Sensor-Based Autonomous Vehicle safty System
+Overview
 This project introduces an Advanced Sensor-Based Autonomous Vehicle System aimed at enhancing road safety by providing proactive collision avoidance and overtaking alerts. Unlike AI-based models, this system relies on sensor data for autonomous decision-making. At the core of this system is the Arduino Uno microcontroller, managing a network of sensors and actuators to address crucial safety issues on the road.
 
-FEATURES
+Features
 Collision Detection: Utilizes impact and tilt sensors for rapid responses to collisions, along with ADXL accelerometers for accurate detection of potential rollovers.
 Real-time Monitoring: Provides real-time monitoring of sensor data to enable prompt warnings to the driver based on potential risks.
 Emergency Response Coordination: Facilitates emergency response coordination by automatically alerting relevant authorities in the event of an accident and providing precise location data.
@@ -23,8 +22,6 @@ Simulation Software: Tools such as Proteus or TinkerCAD for testing and validati
 Data Analysis Tools: MATLAB or Python for processing and analyzing data collected during operation.
 Documentation Tools: Markdown, LaTeX, or conventional word processors for creating comprehensive documentation.
 Android Studio: IDE for developing the Android application for real-time location tracking.
-
-
 Hardware Requirements
 Arduino Board: Central microcontroller providing computational power and connectivity.
 ADXL335: 3-axis accelerometer for measuring acceleration.
@@ -33,14 +30,11 @@ Electromagnetic Lock: Controls the locking and unlocking of doors remotely.
 DC Motor: Converts electrical energy into mechanical energy.
 Relay: Compact relay board for managing loads.
 Ultrasonic Sensor: Utilized for various distance sensing applications.
-
-
 Repository Structure
 /src: Contains source code files for the Arduino Uno microcontroller.
 /android_app: Includes source code for the Android application for real-time location tracking.
 /simulation: Includes simulation files for testing system functionality.
 /docs: Documentation files, including system architecture, hardware setup, and user manual.
-
 Getting Started
 Clone the repository to your local machine.
 Install the necessary software requirements listed above.
@@ -48,8 +42,6 @@ Upload the source code files from /src to the Arduino Uno microcontroller.
 Develop and install the Android application using /android_app.
 Use simulation software to test the system functionality before hardware deployment.
 Refer to the documentation in /docs for detailed setup instructions and usage guidelines.
-
-
 Contribution Guidelines
 Fork the repository and create a new branch for your contributions.
 Follow the coding standards and documentation guidelines.
